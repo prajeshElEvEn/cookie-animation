@@ -46,3 +46,16 @@ tl.fromTo(
     },
     '<'
 )
+
+const zip = () => {
+    tl.fromTo(
+        '.popup',
+        {
+            scale: 1,
+        },
+        {
+            scale: 0,
+            duration: 0.3,
+        }
+    )
+}
