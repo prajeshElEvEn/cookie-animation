@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #242424;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container .popup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: linear-gradient(260deg, #9b6c50 0%, #4f2626 100%);
+  color: white;
+  width: 400px;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+}
+
+.container .popup .cookie {
+  padding: 1rem;
+}
+
+.container .popup .text {
+  width: 70%;
+}
+
+.container .popup .text .title {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.container .popup .text .description {
+  padding: 0 1rem 1rem 0;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.container .popup .text .btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  background: #e2e2e2;
+  border-radius: 0.5rem;
+  color: #4f2626;
+  border: none;
+  outline: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .popup .text .btn:hover {
+  -webkit-transform: translate(0, -5px);
+          transform: translate(0, -5px);
+}
+
+.container .popup .text .btn:active {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  .container .popup {
+    width: 90vw;
+    padding: 0.6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
