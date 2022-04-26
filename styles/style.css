@@ -43,6 +43,7 @@ body {
 
 .container .popup .cookie {
   padding: 1rem;
+  overflow: visible;
 }
 
 .container .popup .text {
